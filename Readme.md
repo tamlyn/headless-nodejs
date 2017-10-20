@@ -2,7 +2,7 @@
 
 Ideal for running end-to-end integration tests in CI.
 
-    docker run --itv $PWD:/tests tamlyn/headless-nodejs
+    docker run -itv $PWD:/tests tamlyn/headless-nodejs
 
 This will open a bash prompt where you can `npm install && npm test` or whatever.
 
